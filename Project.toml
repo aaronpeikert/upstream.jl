@@ -1,0 +1,13 @@
+name = "upstream"
+uuid = "dfa7368c-5b78-4bda-9dde-69676b7aee7c"
+authors = ["Aaron Peikert", "Maximilian S. Ernst", "Nicklas Hafiz"]
+version = "0.1.0"
+
+[compat]
+julia = "1.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
