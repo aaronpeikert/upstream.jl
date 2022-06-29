@@ -2,5 +2,5 @@ using upstream
 using Test
 
 @testset "upstream.jl" begin
-    # Write your tests here.
+    @test add(1, 1) == 2
 end
