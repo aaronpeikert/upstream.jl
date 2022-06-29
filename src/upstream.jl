@@ -5,5 +5,11 @@ module upstream
 
     Summation of two things.
     """
-    add(x, y) = x + y
+    function add(x, y; fast)
+        if fast
+            return @fastmath x + y
+        else
+            return x + y
+        end
+    end
 end
